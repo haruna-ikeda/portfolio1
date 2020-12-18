@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="favicon.ico">
+    <title>Dessert .Labo</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/hover.css">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/e8a441c43b.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+	<script>
+	$(function(){
+   $(window).on('load scroll', function() {
+      var winScroll = $(window).scrollTop();
+      var winHeight = $(window).height();
+      var scrollPos = winScroll + (winHeight * 0.8);
+
+      $(".show").each(function() {
+         if($(this).offset().top < scrollPos) {
+            $(this).css({opacity: 1, transform: 'translate(0, 0)'});
+         }
+      });
+   });
+});
+		</script>
+	
+</head>
+<body class="concept">
+  <div class="page">
+        <header>
+            <nav>
+                <ul>
+                    <li><a class="hvr-underline-from-left" href="/">HOME</a></li>
+                    <li><a class="hvr-underline-from-left" href="index.html#galerie">GALERIE</a></li>
+                    <li><a class="hvr-underline-from-left" href="concept.html">CONCEPT</a></li>
+                    <li class="logo"><a href="/"><img src="images/header-logo2.png"></a></li>
+                    <li><a class="hvr-underline-from-left" href="menu.html">MENU</a></li>
+                    <li><a class="hvr-underline-from-left" href="access.html">ACCESS</a></li>
+                    <li><a class="hvr-underline-from-left" href="reserve.html">RESERVE</a></li>
+                </ul>
+            </nav>
+        </header>
+    <main>
+        <h2>CONCEPT</h2>
+        <div class="welcome">
+            <div class="warap">
+                <div class="blackfont">
+                    <h3>"Bienvenue à mon laboratoire!<br>&nbsp;Goûtez nos spécialités!</h3>
+                    <p>『Dessert.Labo』は常に新しいお菓子を作るために挑戦し続けます！フランスの素材を直接<br>
+						輸入し、味や香りにこだわった風味豊なデザートをお客様にお届けいたします。フランスのミ<br>
+						シュランの三ツ星レストランで修行を積みんだ経験を活かした、シェフこだわりのクラッシク<br>
+						なフランス菓子からモダンなデザートをお楽しみください！<br>
+                    </p>
+                </div>
+            </div>
+            
+
+<!--
+            <div class="kara">
+                <div class="whitefont">
+                    <h3>"Bienvenue à mon laboratoire!<br>&nbsp;Goûtez nos spécialités!</h3>
+                     <p>『Dessert.Labo』はフランスの素材を直接輸入し、味や香りにこだわった風味豊なデザートを<br>
+                        お客様にお届けいたします。フランスミシュランの三ツ星レストランで修行を積みんだ経験<br>
+                        を活かし常に挑戦し続けます。シェフこだわりのクラッシクなフランス菓子からモダンなデ<br>
+                        ザートをお楽しみください！
+                    </p>
+                </div>
+            </div>
+-->
+
+        </div>
+            <div class="cakepicture">
+                <figure class="slide-left show"><img src="images/concept-cake1.png" alt="カップケーキ"></figure>
+                <figure class="slide-bottom show"><img src="images/concept-cake2.png" alt="チョコレートムース"></figure>
+                <figure class="slide-right show"><img src="images/concept-cake3.png" alt="ラズベリームース"></figure>
+            </div>
+            <section class="butter">
+                <figure><img src="images/concept-butter.jpg"></figure>
+                <div class="butter-text">
+                    <p>当店ではフランスのAOPに認定されているエシレバターを使用しております。エシレバターは、優れた乳製品の産地として知られるフランス中西部・エシレ村で生産されるクリーミーな口あたりと、芳醇な香りが楽しめる発酵バターです。発酵バターはクリームを乳酸発酵させてから作るバターで、ヨーグルトのような軽い酸味があり、香り高いのが特長です。</p>
+                </div>
+            </section>
+            <div class="kurumi"><img src="images/concept-noix.jpg" alt="くるみの写真"></div>
+            <section class="cacao">
+                <figure><img src="images/concept-cacao.jpg" alt="カカオの写真"></figure>
+                <div class="cacao-text">
+                    <p>世界のトップ・パティシエたちに愛されるヴァローナ社のチョコレート。そのおいしさの秘密はチョコレートの原料となるカカオへのこだわりにあります。ワインがその産地や葡萄の種類によって個性を出すように、チョコレートもカカオ豆の原産地や種類によって風味が決まります。力強い苦味や渋み、フルーツのような酸味、森や木々の香り、はかない花のような香り。こうしたカカオの個性を味わうことが、チョコレートの楽しみ方の本質なのです。
+                    ぜひ、みなさまもヴァローナ社のチョコレートを使用した当店のショコラをお楽しみください。</p>
+                </div>
+            </section>
+    </main>
+     <footer>
+        <div class="inner">
+            <div class="wrap">
+                <div class="logo">
+                    <a href="#"><img src="images/header-logo2.png" alt="ロゴ"></a>
+                </div>
+                <div class="jusho">
+                    <address>address :<br>okinawa chatanchou ***<br>12-34-56</address>
+                    <address>tel : 777-1234-5678</address>
+                    <p>Today's hours :<br>12:00 PM - 23:00 PM</p>
+                </div>
+                <div class="sabusuku">
+                    <form><p>Join our newsletter</p><input type="email" name="SUBSCRIBE" placeholder="your email address..."><br>
+                    <button class="hvr-bounce-in" type="submit" name="SUBSCRIBE">SUBSCRIBE</button></form>
+                </div>
+            </div>
+            <p><a class="hvr-bounce-in" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="hvr-bounce-in" href="#"><i class="fab fa-instagram"></i></a>
+                <a class="hvr-bounce-in" href="#"><i class="fab fa-facebook-f"></i></a>
+             </p>
+            <p><small>Copyright&copy;2020 ikeda haruna Inc. All Rights Reserved.</small></p>
+        </div>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="icon" href="favicon.ico?v=1">
+    <title>Dessert .Labo</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/hover.css">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet"><!--Googleフォント-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"><!--bxslider CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/e8a441c43b.js" crossorigin="anonymous"></script><!--フォントawsome-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!--jQuery-->
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script><!--jsファイル-->
+    <script>
+        $(function(){
+         $('.bxslider').bxSlider({
+          auto: true, // 自動でスライドショーをスタートさせる　（初期値: false）
+          mode: 'fade', // アニメーションの種類「'horizontal'」「'vertical'」「'fade'」　（初期値: 'horizontal'）
+          speed: 400, // アニメーションのスピード　（初期値: 500）
+          pause: 3000, // 画像の切り替わる間隔　（初期値: 4000）
+          pager: false, // 下部にある画像切り替えボタンの表示・非表示　（初期値: true）
+          controls: false // 左右の矢印の表示・非表示　（初期値: true）
+         });
+        });
+       </script>
+       
+</head>
+<body class="home">
+    <div class="page">
+        <header>
+            <nav>
+                <ul>
+                    <li><a class="hvr-underline-from-left" href="/">HOME</a></li>
+                    <li><a class="hvr-underline-from-left" href="#galerie">GALERIE</a></li>
+                    <li><a class="hvr-underline-from-left" href="concept.html">CONCEPT</a></li>
+                    <li class="logo"><a href="/"><img src="images/header-logo2.png"></a></li>
+                    <li><a class="hvr-underline-from-left" href="menu.html">MENU</a></li>
+                    <li><a class="hvr-underline-from-left" href="access.html">ACCESS</a></li>
+                    <li><a class="hvr-underline-from-left" href="reserve.html">RESERVE</a></li>
+                </ul>
+            </nav>
+        </header>
+    <main>
+        <div class="main-image">
+            <div class="bxslider">
+                <img src="images/home-fv1.jpg" alt="店内の写真">
+                <img src="images/home-fv2.jpg" alt="デザートの写真">
+				<img src="images/home-fv5.jpg" alt="レモンのケーキの写真">
+				<img src="images/home-fv4.jpg" alt="カップケーキ写真">
+				<img src="images/home-fv3.jpg" alt="ベリーのデザートの写真">
+            </div>
+        </div>  
+        <div class="galerie">
+            <h2><a id="galerie">GALERIE</a></h2>
+            <div class="container">
+                <div class="item"><a href="#"><img src="images/gallery-inside.jpg" alt="店内の写真"><figcaption>Inside</figcaption></a></div>
+                <div class="item"><a href="#"><img src="images/gallery-macaron.jpg" alt="マカロンの写真"><figcaption>Macaron</figcaption></a></div>
+                <div class="item"><a href="#"><img src="images/gallery-vacherin.jpg" alt="ヴァシュランの写真"><figcaption>Vacherin</figcaption></a></div>
+                <div class="item"><a href="#"><img src="images/gallery-glace.jpg" alt="デザートの写真"><figcaption>Glace</figcaption></a></div>
+                <div class="item"><a href="#"><img src="images/gallery-galette.jpg" alt="ガレットの写真"><figcaption>Galette</figcaption></a></div>
+                <div class="item"><a href="#"><img src="images/gallry-gatouxchocolat.jpg" alt="ガトーショコラの写真"><figcaption>Gâteau au chocolat</figcaption></a></div>
+                <div class="item"><a href="#"><img src="images/gallery-cafe.jpg" alt="カフェラテの写真"><figcaption>Café</figcaption></a></div>
+                <div class="item"><a href="#"><img src="images/gallery-petitfour.jpg" alt="プティフールの写真"><figcaption>Petit four</figcaption></a></div>
+                <div class="item"><a href="#"><img src="images/gallery-noisettes.jpg" alt="ヘーゼルナッツの写真"><figcaption>Noisettes</figcaption></a></div> 
+            </div>
+        </div>
+   </main>
+     <footer>
+        <div class="inner">
+            <div class="wrap">
+                <div class="logo">
+                    <a href="#"><img src="images/header-logo2.png" alt="ロゴ"></a>
+                </div>
+                <div class="jusho">
+                    <address>address :<br>okinawa chatanchou ***<br>12-34-56</address>
+                    <address>tel : 777-1234-5678</address>
+                    <p>Today's hours :<br>12:00 PM - 23:00 PM</p>
+                </div>
+                <div class="sabusuku">
+                    <form><p>Join our newsletter</p><input type="email" name="SUBSCRIBE" placeholder="your email address..."><br>
+                    <button class="hvr-bounce-in" type="submit" name="SUBSCRIBE">SUBSCRIBE</button></form>
+                </div>
+            </div>
+            <p><a class="hvr-bounce-in" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="hvr-bounce-in" href="#"><i class="fab fa-instagram"></i></a>
+                <a class="hvr-bounce-in" href="#"><i class="fab fa-facebook-f"></i></a>
+             </p>
+            <p><small>Copyright&copy;2020 ikeda haruna Inc. All Rights Reserved.</small></p>
+        </div>
+    </footer>
+      
+    </div>
+    
+</body>
+</html>
