@@ -331,12 +331,21 @@ main .bx-wrapper {
 	transform: translate(20px, 0);
 	transition: all 1s ease-out;
  }
-/* -----------------------
 
------------------------- */
 /* -----------------------
-ヘッダー
+予約・アクセス
 ------------------------ */
-/* -----------------------
-ヘッダー
------------------------- */
+.reserve main p,
+.access main p{
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.8;
+  margin-bottom: 100px;
+}
+.reserve main h3,
+.access main h3{
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
